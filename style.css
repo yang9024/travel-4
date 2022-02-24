@@ -21,59 +21,59 @@ html {
   background-color: var(--dracula-black);
 }
 
-.arrow {
-  font-size: 25px;
-  color: var(--dracula-white);
-  width: 30px;
-  display: inline-flex;
-}
-.arrow-left {
-  justify-content: flex-start;
-}
-.arrow-right {
-  justify-content: flex-end;
+.main-group {
+  /* margin-top: 0vh; */
+  /* height: 80vh; */
+  margin-top: 10vh;
 }
 
-.container {
-  margin: 10vh;
-  height: 80vh;
+.btn-group {
+  margin-top: 20px;
+}
+
+.col {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.pic-row {
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.box-300 {
-  background-color: red;
-  width: 300px;
-  height: 300px;
-}
+
 .pic {
+  display: none;
   object-fit: cover;
-  border: 2px solid var(--pic-color);
   border-radius: 50%;
+  border: 2px solid var(--pic-color);
   box-shadow: 1px 1px 1px var(--pic-color);
   width: 275px;
   height: 275px;
 }
-.pic2 {
-  object-fit: cover;
-  border: 5px solid var(--dracula-red);
-  border-radius: 50%;
-  box-shadow: 1px 1px 1px grey;
-  width: 300px;
-  height: 300px;
-}
 
-.pic-off {
-  display: none;
-}
 .pic-on {
   display: block;
+}
+
+.headline {
+  color: var(--dracula-white);
+}
+
+.btn {
+  width: 50px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--dracula-dark-blue);
+  color: var(--dracula-white);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: var(--dracula-green);
+  color: var(--dracula-black);
 }

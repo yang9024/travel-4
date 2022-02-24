@@ -15,12 +15,16 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   background-color: var(--dracula-black);
 }
 
+h2 {
+  font-family: "Indie Flower", cursive;
+}
 .main-group {
   /* margin-top: 0vh; */
   /* height: 80vh; */
@@ -71,6 +75,8 @@ html {
   background-color: var(--dracula-dark-blue);
   color: var(--dracula-white);
   border-radius: 5px;
+  touch-action: manipulation;
+  cursor: pointer;
 }
 
 .btn:hover {

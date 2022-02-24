@@ -1,3 +1,4 @@
+// globals
 let picNum = 1;
 let picMin = 1;
 let picMax = 3;

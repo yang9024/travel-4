@@ -71,6 +71,7 @@ html {
   background-color: var(--dracula-dark-blue);
   color: var(--dracula-white);
   border-radius: 5px;
+  touch-action: manipulation;
 }
 
 .btn:hover {

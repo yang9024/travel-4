@@ -65,6 +65,7 @@ function filter(n) {
   let filterMin = 0;
   let filterMax = filters.length - 1;
 
+  // Get the selected filter
   filterNum = filterNum + n;
 
   if (filterNum > filterMax) {
@@ -74,11 +75,9 @@ function filter(n) {
     filterNum = filterMax;
   }
 
+  // Update the css variable for this filter
   r.style.setProperty("--filter", rs.getPropertyValue(filters[filterNum].var));
 
+  // Update the name of this filter
   document.getElementById("filter").innerText = filters[filterNum].name;
-  // r.style.setProperty("--filter", "--filter-sepia");
-  // r.style.setProperty("--filter", rs.getPropertyValue(theme.background));
-  // Remove pic-on class for picNum
-  // 1) get the pic
 }

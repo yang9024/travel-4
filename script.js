@@ -52,14 +52,14 @@ function filter(n) {
 
   let filters = [
     { name: "No Filter", var: "" },
-    { name: "Blur", var: "--filter-blur" },
+    // { name: "Blur", var: "--filter-blur" },
     { name: "Contrast", var: "--filter-contrast" },
     { name: "Grayscale", var: "--filter-grayscale" },
     { name: "Rotate Hue 180", var: "--filter-huerotate" },
     { name: "Invert Color", var: "--filter-invert" },
     { name: "Saturate Color", var: "--filter-saturate" },
     { name: "Sepia", var: "--filter-sepia" },
-    { name: "Green Shadow", var: "--filter-shadow" },
+    // { name: "Green Shadow", var: "--filter-shadow" },
   ];
 
   let filterMin = 0;

@@ -87,8 +87,7 @@ h1 {
 }
 
 .btn-label {
-  width: 210px;
-  margin: 10px;
+  width: 220px;
   padding: 10px;
   font-size: 16px;
   background-color: var(--dracula-white);
@@ -100,8 +99,4 @@ h1 {
 
 .brightness {
   filter: brightness(1.25);
-}
-
-.bg-blue {
-  background-color: blue;
 }
